@@ -35,3 +35,33 @@ This is a full-stack backend application built using **Java** and **Spring Boot*
 - 🧪 Easy to test and extend
 
 ---
+
+======================================================================================================
+
+# Employee Management System
+
+A simple Spring Boot application to manage employees using CRUD (Create, Read, Update, Delete) operations. This project demonstrates the use of Spring Boot, Spring Data JPA, and an H2 in-memory database.
+
+## Features
+
+- Create a new employee
+- Retrieve a list of all employees
+- Update an existing employee
+- Delete an employee by ID
+- RESTful API implementation
+
+## Technologies Used
+
+- Java 24
+- Spring Boot
+- Spring Data JPA
+- PostgreSql Database
+- Maven
+
+## Getting Started
+
+### Prerequisites
+
+- Java 24 or higher installed
+- Maven installed
+
