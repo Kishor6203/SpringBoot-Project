@@ -1,38 +1,37 @@
-# 🍔 Online Food Ordering Website
+# 🍽️ Online Food Ordering Website
 
-An online food ordering web application that allows users to browse menus, add items to a cart, and place orders from their favorite restaurants. Designed with Java and Spring Boot for backend services, and PostgreSQL for persistent data storage.
+This is a full-stack backend application built using **Java** and **Spring Boot**, designed to manage an online food ordering system. It includes user authentication, food item listings, order management, and secure access via **Spring Security**. Data persistence is handled using **PostgreSQL**.
+
+---
+
+## 🔧 Tech Stack
+
+- **Language:** Java 24
+- **Framework:** Spring Boot
+- **Database:** PostgreSQL
+- **Security:** Spring Security
+- **Build Tool:** Maven
+
+---
+
+## 📦 Dependencies
+
+- `spring-boot-starter-web` – For building RESTful APIs
+- `spring-boot-devtools` – For automatic restarts and live reload
+- `spring-boot-starter-security` – To handle authentication and authorization
+- `postgresql` – JDBC driver for PostgreSQL
+- `spring-boot-starter-data-jpa` – For ORM and database interactions
 
 ---
 
 ## 🚀 Features
 
-- User registration and login
-- Restaurant listing and menu browsing
-- Add to cart and checkout functionality
-- Order history and status tracking
-- Admin panel for managing restaurants, menus, and orders
-- Secure REST APIs
+- 🔐 User registration and login with secure password encryption
+- 🛍️ Browse and manage food menu items
+- 📦 Place and manage orders
+- 📊 Admin dashboard (role-based access)
+- 📡 RESTful APIs for frontend integration
+- 💾 Persistent storage using PostgreSQL
+- 🧪 Easy to test and extend
 
 ---
-
-## 🛠️ Tech Stack
-
-### Backend:
-- **Java 17+**
-- **Spring Boot** (Spring Web, Spring Data JPA, Spring Security)
-- **PostgreSQL** for the relational database
-- **Maven** for dependency management
-
-### Dev Tools:
-- **Lombok** for cleaner code
-- **Spring Boot DevTools** for hot reload
-
----
-
-## 📦 Getting Started
-
-### Prerequisites
-
-- Java 24+
-- Maven
-- PostgreSQL
