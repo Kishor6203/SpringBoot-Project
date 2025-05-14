@@ -26,8 +26,6 @@ An online food ordering web application that allows users to browse menus, add i
 ### Dev Tools:
 - **Lombok** for cleaner code
 - **Spring Boot DevTools** for hot reload
-- **Flyway** (optional) for database versioning
-- **Swagger/OpenAPI** (optional) for API documentation
 
 ---
 
