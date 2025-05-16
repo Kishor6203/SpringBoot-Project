@@ -46,15 +46,15 @@ public class Config
 	@Bean
 	public UserDetailsService detailsService()
 	{
-		UserDetails user1 = User.withUsername("faizan")
+		UserDetails user1 = User.withUsername("abhi")
 				.password(passwordEncoder()
 				.encode("a@123"))
 				.roles("USER")
 				.build();
 		
-		UserDetails user2 = User.withUsername("afifa")
+		UserDetails user2 = User.withUsername("riya")
 				.password(passwordEncoder()
-				.encode("f@123"))
+				.encode("r@123"))
 				.roles("ADMIN")
 				.build();
 		return new InMemoryUserDetailsManager(user1,user2);
