@@ -1,6 +1,4 @@
-package com.car.entity;/*
-    @author Dasun
-*/
+package com.car.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
